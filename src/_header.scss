@@ -1,0 +1,42 @@
+section.header {
+  height: 154px;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  width:100%;
+  padding-top: 28px;
+
+  @include bg_color_screen($yellow);
+  .container {
+    height: inherit;
+    padding:0px 150px;
+     @media(max-width:$breakpoint_2){
+    padding:0px 10%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    width: 100%;
+  }
+  .col {
+    align-self: center;
+  }
+  .col.logo{
+    margin-left: 7%;
+    width:100%;
+    max-width:174px;
+
+  }
+  .col.social {
+    margin-right: 4px;
+    @media(max-width:$breakpoint_2){
+      display:none;
+    }
+  .row{
+   display:inline-flex;
+   gap: 15px; 
+}}
+}
+}

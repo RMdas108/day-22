@@ -1,0 +1,20 @@
+@mixin bg_color_screen($color) {
+    background-color:$color;
+}
+@mixin h2_color($col){
+    color:$col;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+}
+@mixin p_format(){
+    font-family: PT Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+}
+@mixin margin_h2_p{
+    margin-bottom: 46px;
+}
